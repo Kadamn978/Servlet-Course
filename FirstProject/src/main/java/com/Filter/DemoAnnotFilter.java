@@ -27,9 +27,9 @@ public class DemoAnnotFilter extends HttpFilter implements Filter {
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
             throws IOException, ServletException {
         HttpServletResponse res = (HttpServletResponse) response;
-        res.getWriter().println("Pre processing");
+        res.getWriter().println("Pre processing 1 ");
         chain.doFilter(request, response);
-        res.getWriter().println("Post processing1");
+        res.getWriter().println("Post processing 1 ");
     }
 
     public void init(FilterConfig fConfig) throws ServletException {
