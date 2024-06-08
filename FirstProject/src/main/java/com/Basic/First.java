@@ -14,7 +14,7 @@ public class First extends HttpServlet {
         PrintWriter out = response.getWriter();
 
         String fname = request.getParameter("fname");
-        String pass = request.getParameter("password");
+//        String pass = request.getParameter("password");
         out.println("<h1>Welcome " + fname + "</h1>");
         out.println("<html>");
         out.println("<body bgcolor='lightblue'>");

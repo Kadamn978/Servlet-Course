@@ -195,17 +195,5 @@
 		<servlet-name>DemoAnnotation</servlet-name>
 		<servlet-class>com.Annotations.DemoAnnotation</servlet-class>
 	</servlet>
-	<servlet-mapping>
-		<servlet-name>DemoAnnotation</servlet-name>
-		<url-pattern>/annot</url-pattern>
-	</servlet-mapping>
-	<filter>
-		<display-name>DemoAnnotFilter</display-name>
-		<filter-name>DemoAnnotFilter</filter-name>
-		<filter-class>com.Filter.DemoAnnotFilter</filter-class>
-	</filter>
-	<filter-mapping>
-		<filter-name>DemoAnnotFilter</filter-name>
-		<url-pattern>/annot</url-pattern>
-	</filter-mapping>
+
 </web-app>

@@ -15,7 +15,7 @@ public class DemoCookie extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String uname = request.getParameter("fname");
-		String password = request.getParameter("password");
+//		String password = request.getParameter("password");
 
 		response.setContentType("text/html");
 

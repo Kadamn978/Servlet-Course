@@ -21,6 +21,7 @@ public class WelcomeServlet extends HttpServlet {
 			throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
 		String uname = request.getParameter("fname");
+		@SuppressWarnings("unchecked")
 		ArrayList<String> al1 = (ArrayList<String>) request.getAttribute("StudentList");
 		out.println("Student List : <br>");
 		for (String s : al1) {
